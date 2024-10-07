@@ -1,0 +1,58 @@
+
+.series-card {
+    list-style-type: none; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .series-card:hover {
+    transform: scale(1.02); 
+  }
+  
+  .series-title {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .series-image-container {
+    text-align: center;
+    margin: 12px 0;
+  }
+  
+  .series-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .series-rating {
+    margin: 12px 0;
+    color: #ff6347; 
+  }
+  
+  .series-description,
+  .series-cast,
+  .series-genre {
+    margin: 8px 0;
+  }
+  
+  .watch-button {
+    background-color: #ff6347; 
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .watch-button:hover {
+    background-color: #ff4500; 
+  }
+  

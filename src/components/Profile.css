@@ -1,0 +1,36 @@
+.grid{
+    display: grid;
+gap: 10px;
+place-items: center;
+}
+.grid-two-cols{
+    grid-template-columns: repeat(2,1fr);
+
+}
+.grid-three-cols{
+    grid-template-columns: repeat(3,1fr);
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+ .heading{
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+ }
+ .frame{
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+ }
+ button{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 2px ;
+    border: none;
+cursor: pointer;
+ }

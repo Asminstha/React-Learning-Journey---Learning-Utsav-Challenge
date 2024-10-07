@@ -1,0 +1,17 @@
+.grid{
+    display: grid;
+gap: 10px;
+place-items: center;
+}
+.grid-two-cols{
+    grid-template-columns: repeat(2,1fr);
+
+}
+.grid-three-cols{
+    grid-template-columns: repeat(3,1fr);
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
